@@ -1,0 +1,158 @@
+@font-face {
+      font-family: 'Windows';
+      src: local('Windows'),
+         url('/fonts/Windows Regular.ttf') format('truetype'), 
+         url('/fonts/Windows.otf') format('opentype'),
+         url('/fonts/Windows.woff') format('woff'),
+         url('/fonts/Windows.woff2') format('woff2');
+   }
+
+body {
+	background-image: url("Artboard 1.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+.logo {
+	display: block;
+	margin-left: 44.5%;
+	margin-top: 30px;
+}
+
+
+
+
+html,body{	
+	font-family: 'Windows'; font-size: 13px;	
+	line-height: 18px;
+	padding: 0;
+ 	margin: 0;
+
+}
+
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	white-space: nowrap;
+	text-align: center;
+	
+}
+
+
+nav .mainmenu>li{
+	display: inline-block;
+	position: relative;
+	margin-top: 10px;
+	margin-right: 15px;
+	margin-left: 16px;
+	left: 0.9%;
+
+}
+
+nav .submenu>li{
+	margin-left: -6px;
+	
+}
+
+nav .supersubmenu>li{
+	margin-left: -31px;
+
+}
+
+nav a{
+	margin: 0;
+	text-decoration: none;
+	position: relative;
+	color: pink;
+}
+
+nav .mainmenu li:hover>a{
+	color: #86f6e0;
+}
+
+nav .submenu li:hover>a{
+	color: #FBFF7C;
+}
+
+nav .supersubmenu li:hover>a{
+	color:#C09CFF;
+}
+
+nav .submenu, nav .supersubmenu{
+	position: absolute;
+	display: none;
+}
+nav .mainmenu>li:hover .submenu, nav .submenu>li:hover> .supersubmenu{
+	display: block;
+
+}
+
+nav .submenu li{
+	position:relative;
+}
+nav .supersubmenu{
+	
+	bottom: 0;
+	transform: translate(0,100%);
+}
+
+
+
+.mailbox {
+	display: block;
+	margin-top: -76px;
+	margin-left: 45px;
+	
+	
+}
+
+
+.centered {
+  position: absolute;
+  top: 65%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+.container a{
+	text-decoration: none;
+	color: #a73fff;
+	line-height: 36px;
+}
+
+
+.container a:hover {
+	color: #86f6e0;
+}
+
+
+h1 {
+	font-family: W95FA; 
+	font-size: 30px;
+	margin-left: -70px;
+
+	
+}
+
+h2 {
+	font-family: W95FA; font-size: 20px;
+	color: #ff53ff;
+	margin-left: -40px;
+
+}
+
+
+
+.contents {
+	margin-top: -11px;
+}
+
+

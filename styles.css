@@ -1,0 +1,92 @@
+
+@font-face {
+      font-family: 'Windows';
+      src: local('Windows'),
+        
+         url('/fonts/Windows.otf') format('opentype'),
+         url('/fonts/Windows.woff') format('woff'),
+         url('/fonts/Windows.woff2') format('woff2'),
+         url('/fonts/Windows Regular.ttf') format('truetype');
+   }
+
+body {background-image: url("Artboard 1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px;
+	background-attachment: fixed;
+	
+}
+html,body{
+	
+	font-family: 'Windows'; font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+
+}
+
+
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	white-space: nowrap;
+
+}
+
+nav .mainmenu>li{
+	display: inline-block;
+	margin-left: 100px;
+	margin-right: 70px;
+}
+
+nav .submenu>li{
+	margin-left: -10px;
+	
+}
+
+nav .supersubmenu>li{
+	margin-left: -43px;
+
+}
+
+nav a{
+	margin: 0;
+	text-decoration: none;
+	position: relative;
+	color: pink;
+}
+
+nav .mainmenu li:hover>a{
+	color: #86f6e0;
+}
+
+nav .submenu li:hover>a{
+	color: #FBFF7C;
+}
+
+nav .supersubmenu li:hover>a{
+	color:#C09CFF;
+}
+
+nav .submenu, nav .supersubmenu{
+	position: absolute;
+	display: none;
+}
+nav .mainmenu>li:hover .submenu, nav .submenu>li:hover> .supersubmenu{
+	display: block;
+
+}
+
+nav .submenu li{
+	position:relative;
+}
+nav .supersubmenu{
+	
+	bottom: 0;
+	transform: translate(0,100%);
+}
+
+
+
